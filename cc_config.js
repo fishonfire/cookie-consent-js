@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
   const cc = initCookieConsent();
   cc.run({
     current_lang: 'nl',
@@ -144,4 +143,3 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-})
