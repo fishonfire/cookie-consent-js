@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Example cookie consent</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.1/dist/cookieconsent.css">
+  <script
+    type="text/plain"
+    data-cookiecategory="targeting">
+      console.log('"targeting" category accepted');
+  </script>
+  <script
+    type="text/plain"
+    data-cookiecategory="analytics">
+      console.log('"analytics" category accepted');
+  </script>
+  <script
+  type="text/plain"
+  data-cookiecategory="functional">
+    console.log('"functional" category accepted');
+</script>
+</head>
+<body>
+  <!-- Load script with the "defer" keyword -->
+  <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.1/dist/cookieconsent.js"></script>
+  <div>
+    <p>Refer to the console to see which cookie you have given consent to.</p>
+  </div>
+
+  <script>
+    src="./cc_config.js"
+  </script>
+  <style>
+    @font-face {
+      font-family: Silka Regular;
+      src: url(Silka-Regular.otf);
+    }
+    :root {
+      --cc-font-family: "Silka Regular", Silka Regular, "Silka", Silka;
+      --cc-btn-primary-bg: #EA5000;
+      --cc-btn-primary-text: white;
+      --cc-btn-primary-hover-bg: #181825;
+      --cc-btn-primary-hover-text: white;
+      --cc-btn-secondary-bg: white;
+      --cc-btn-secondary-text: #181825;
+      --cc-btn-secondary-hover-bg: rgb(239, 239, 239);
+      --cc-btn-secondary-hover-text: var(--cc-btn-secondary-text);
+      --cc-text: #87868B;
+    }
+
+    .c-bn {
+      border: var(--cc-btn-primary-bg) 1px solid;
+    }
+
+    .c-bn:hover {
+      border: var(--cc-btn-primary-bg) 1px solid;
+    }
+
+    #s-all-bn.c-bn:hover {
+      border: var(--cc-btn-primary-hover-bg) 1px solid;
+    }
+
+    #c-p-bn.c-bn:hover {
+      border: var(--cc-btn-primary-hover-bg) 1px solid;
+    }
+
+    #s-c-bn {
+      border: none;
+    }
+  </style>
+</body>
+</html>
