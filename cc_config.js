@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
           ],
           blocks: [
             {
-              title: 'Cookie usage 📢',
+              title: 'Cookie usage',
               description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/privacy" class="cc-link">privacy policy</a>.',
             }, {
               title: 'Strictly necessary cookies',
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
           ],
           blocks: [
             {
-              title: 'Cookie gebruik 📢',
+              title: 'Cookie gebruik',
               description: 'Cookies worden gebruikt om de basisfunctionaliteiten van de website te waarborgen en om uw online ervaring te verbeteren. U kunt voor elke categorie kiezen om u aan of af te melden wanneer u maar wilt. Bekijk onze <a href="/privacy" class="cc-link">privacybeleid</a> voor meer details met betrekking tot cookies en andere gevoelige gegevens.',
             }, {
               title: 'Strikt noodzakelijke cookies',
